@@ -1,0 +1,26 @@
+{
+    "name": "zems/lr_task_manager",
+    "description": "lr_task_manager For website maintain and managing admin model migration by zems team v1.0.2",
+    "type": "library",
+    "require": {
+        "zems/lr_admin": "v1.0.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zems\\LrTaskManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zems",
+            "email": "support@zems.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": ["Zems\\LrTaskManager\\LrTaskManagerProvider"]
+        }
+    }
+}
